@@ -1,0 +1,4 @@
+BACK 	 3
+ALPHA 	 f
+BETA 	 18
+GAMMA 	 1b

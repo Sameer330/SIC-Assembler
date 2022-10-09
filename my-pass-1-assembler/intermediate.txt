@@ -1,0 +1,9 @@
+0 	 ® 	 LDA 	 ALPHA 
+3 	 BACK 	 ADD 	 BETA 
+6 	     	 STA 	 GAMMA 
+9 	     	 COMP 	 T100 
+c 	     	 JLT 	 BACK 
+f 	 ALPHA 	 RESW 	 3 
+18 	 BETA 	 WORD 	 5 
+1b 	 GAMMA 	 RESW 	 1 
+1e 	     	 END 	     
