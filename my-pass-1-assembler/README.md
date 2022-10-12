@@ -1,11 +1,10 @@
 # Implementation of PASS-1 Algorithm
 
-## Files(5 no's)
-  1. my-pass-1.c
-  2. input.txt
-  3. optab.txt
-  4. intermediate.txt
-  5. symtab.txt
+## Files In This Directory:
+  1. 'input.txt' - 'intermediate.txt' (INPUT - OUTPUT)
+  2. 'input1.txt' - 'intermediate1.txt'
+  3. 'optab.txt' (REFERENCE OPCODE TABLE)
+  4. pass-1.c (EXECUTABLE)
 
 ## Rules to write SIC Program in 'input.txt'
   1. All Instructions must be in Upper Case Letters.
@@ -26,6 +25,10 @@
   4. 'my-pass-1.o' and 'my-pass-1.exe' are created.
   5. Check 'intermediate.txt' for Instruction Addresses.
   6. Check 'symtab.txt' for (Label, Address)
+
+## Check out this repo by one of my friends
+### https://github.com/prajwalkpatil/SystemSoftware
+### Some of the elements in my code are synonymous to the abovementioned repo. I encourage you to have a look at this repo too!
 
 ### Created by Sameer Ankalagi
 ### GitHub.com/Sameer330
