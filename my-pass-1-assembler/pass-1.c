@@ -242,7 +242,8 @@ int main() {
         } while(iter != head_in);
     } else {
         locctr = strtol("0000", NULL, 16);
-        fprintf(fp_im, "%-10x %-10s %-10s %-10s\n", locctr, iter->label, iter->opcode, iter->operand);
+        // fprintf(fp_im, "%-10x %-10s %-10s %-10s\n", locctr, iter->label, iter->opcode, iter->operand);
+        // ^ This line prints the first line. If used, will print the first line twice - unnecessary.
 
         do {
             if (search_optab(iter->opcode)) {
