@@ -209,7 +209,8 @@ int main() {
     int locctr;
 
     if(strcmp(iter->opcode, "START") == 0) {
-        fprintf(fp_im, "\t\t %-10s %-10s %-10s\n", iter->label, iter->opcode, iter->operand);
+        fprintf(fp_im, "$ %-10s %-10s %-10s\n", iter->label, iter->opcode, iter->operand);
+        // First Line does not have an 'address' - hence the '$' symbol.
         strcpy(start_address, iter->operand);
         locctr = strtol(start_address, NULL, 16);
         iter = iter->next; /// At second line;
